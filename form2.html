@@ -25,7 +25,9 @@
       setTimeout(() => {
         aa.classList.toggle("toogle-success");
         form.reset();
-      }, 3000);
+        console.log("Hello");
+        window.location.href = "product.html";
+      }, 2000);
     }
     
   </script>
@@ -68,7 +70,7 @@
             <label>Email address<span class="require-symbol">*</span></label>
             <input type="email" class="fw-input" placeholder="Email address" required name="Email address"/>
           </div>
-          <button type="submit" class="fw-pri-btn">Save your seat</button>
+          <input type="submit" class="fw-pri-btn" value="Save "/>
         </form>
       </div>
     </section>
